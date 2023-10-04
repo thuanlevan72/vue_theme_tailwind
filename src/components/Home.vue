@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header></Header>
+    <!-- <Header></Header> -->
     <Slider></Slider>
     <PricingTables></PricingTables>
     <TeamMenbres />
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Header from "./layout/Header.vue";
+// import Header from "./layout/Header.vue";
 import Slider from "./layout/Slider.vue";
 import Feature from "./Feature.vue";
 import PricingTables from "./PricingTables.vue";
@@ -21,7 +21,7 @@ import Footer from "./layout/Footer.vue";
 export default {
   name: "VueHome",
   components: {
-    Header,
+    // Header,
     Slider,
     Feature,
     PricingTables,
